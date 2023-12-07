@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1B2330;
+    font-family: Raleway;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* HEADER START */
+.header {
+    margin-top: 73px;
+    background: #1B2330;
+    margin-bottom: 75px;
+}
+
+.header-logo:hover {
+    opacity: 0.8;
+}
+
+.header-logo:active {
+    opacity: 0.5;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 57px;
+}
+
+.header-link {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-link:hover {
+    color: aqua;
+}
+
+.header-link:active {
+    color: rgb(5, 255, 5);
+}
+
+/* HEADER END */
+
+/* HERO START */
+.main {
+    position: relative;
+    padding-bottom: 360px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 158px;
+}
+
+.hero-title {
+    margin-top: 36px;
+    margin-bottom: 32px;
+    width: 734px;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.hero-text {
+    margin-bottom: 32px;
+    width: 530px;
+    color: #FFF;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hero-button {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 19px 96px;
+    background: linear-gradient(152deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 28px;
+    border: 5px solid transparent;
+}
+
+.hero-button:hover {
+    opacity: 0.8;
+    color: #fff;
+    border: 5px solid transparent;
+}
+
+.hero-button:active {
+    opacity: 0.5;
+    color: #fff;
+    background: transparent;
+    border: 5px solid rgb(5, 255, 5);
+}
+
+/* HERO END */
+
+/* SERVICAS START */
+.servicas {
+    padding: 0 200px;
+    margin-bottom: 136px;
+}
+
+.servicas-list {
+    display: flex;
+    gap: 78px 147px;
+    flex-wrap: wrap;
+}
+
+.servicas-item {
+    width: 349px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicas-title {
+    margin-top: 16px;
+    margin-bottom: 9px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.servicas-text {
+    width: 330px;
+    color: #FFF;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* SERVICAS END */
+
+/* STAY-PRODUCTIVE START */
+.stay-productive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 179px;
+}
+
+.stay-productive-title {
+    margin-bottom: 19px;
+    width: 506px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.stay-productive-text1 {
+    width: 563px;
+    margin-bottom: 16px;
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.stay-productive-text2 {
+    width: 563;
+    margin-bottom: 24px;
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.stay-productive-link {
+    color: #62E0D9;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stay-productive-link:hover {
+    color: aqua;
+}
+
+.stay-productive-link:active {
+    color: rgb(5, 255, 5);
+}
+
+.stay-productive-img:hover {
+    opacity: 0.8;
+}
+
+.stay-productive-img:active {
+    opacity: 0.5;
+}
+
+/* STAY PRODUCTIVE END */
+
+/* ABOUT-FYLO START */
+.about-fylo-list {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+
+.about-fylo-item {
+    padding: 40px 24.7px 26px 26px;
+    width: 360px;
+    border-radius: 3.933px;
+    background: #202A3C;
+    box-shadow: 5px 5px 8px 0px rgba(56, 56, 56, 0.10);
+}
+
+.about-fylo-text {
+    width: 280px;
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+}
+
+.about-fylo-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.about-fylo-staff-box-title {
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.about-fylo-staff-box-text {
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0.571px;
+}
+
+/* ABOUT-FYLO END */
+
+/* FORM START */
+.form {
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    width: 863px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 77px;
+    border-radius: 9px;
+    background: #1B2330;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-title {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.form-text {
+    width: 590px;
+    color: #FFF;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 38px;
+}
+
+.form-box {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+}
+
+.form-input {
+    color: #C0C0C0;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 17px 208px 15px 38px;
+    background: #FFF;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+    border-radius: 24px;
+    border: transparent;
+}
+
+.form-button {
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 26.5px;
+    background: linear-gradient(152deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+    border-radius: 24px;
+    border: transparent;
+}
+
+.form-button:hover {
+    opacity: 0.8;
+}
+
+.form-button:active {
+    opacity: 0.5;
+}
+
+/* FORM END */
+
+/* FOOTER START */
+.footer {
+    background: #0B1524;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding: 200px 0px 97px;
+}
+
+.footer-box {
+    width: 339px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 146px;
+}
+
+.footer-item1 a {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer-item2 {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.footer-item2 p {
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-item3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 114px;
+}
+
+.footer-item3 p {
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-item4 {
+    display: flex;
+    gap: 12.5px;
+}
+
+.footer-text {
+    width: 280px;
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 32px;
+}
+
+.footer-list a:hover {
+    opacity: 0.8;
+}
+
+.footer-list a:active {
+    opacity: 0.5;
+}
+
+/* FOOTER END */
